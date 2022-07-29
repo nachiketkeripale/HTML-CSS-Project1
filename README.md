@@ -10,7 +10,7 @@
 
 ![Nachiket,FullStackDeveloper](https://img.shields.io/badge/Nachiket%20Keripale-Full--Stack--Developer-brightgreen)
 
-## Project 1 [Live Link](https://live-proj-1.netlify.app/)
+## Project 1 [Live Link](https://nachiketkeripaleproject1.netlify.app/)
 
 -   Lerned to use css position Relative & Absolute property.
 
