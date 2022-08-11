@@ -31,7 +31,7 @@
    text-underline-offset: 5px;
  } 
 
-.button-group {
+ .navbar-container .button-group {
     display: flex;
     right: 30px;
     position: absolute;
@@ -154,4 +154,314 @@ button.button-join {
  .hero-container-right .icons img{
    padding-left: 15px;
    width: 30px;
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar-container {
+        display: flex;
+        max-width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    
+    .navbar-container img {
+        width: 100px;
+    }
+
+    .navbar-container .list {
+        display: none;
+    }
+
+     .button-group {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .button-group .nav-button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container .image img {
+        height: 70%;
+        width: 90%;
+    }
+
+    .hero-container .square img {
+        width: 85%;
+        height: 55%;
+        position: absolute;
+        margin-top: 25vh;
+        margin-left: 60px;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .hero-container-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 80vh;
+        margin-left: unset;
+    }
+
+    .hero-container-right .hero-heading {
+        width: 100%;
+        font-size: 24px;
+        font-family: "Orbitron";
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .hero-container-right .hero-description {
+        width: 100%;
+        padding: unset;
+        margin: unset;
+        font-size: 12px;
+    }
+
+    .button-grp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container-right .button-email {
+        width: 50%;
+        margin-left: 15px;
+    }
+    .hero-container-right .button-join {
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar-container {
+        display: flex;
+        max-width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    
+    .navbar-container img {
+        width: 150px;
+    }
+
+    .navbar-container .list {
+        display: none;
+    }
+
+     .button-group {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .button-group .nav-button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container .image img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 70%;
+    }
+
+    .hero-container .square img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 55%;
+        position: absolute;
+        margin-top: 25vh;
+        margin-left: 60px;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .hero-container-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 80vh;
+        margin-left: unset;
+    }
+
+    .hero-container-right .hero-heading {
+        width: 100%;
+        font-size: 32px;
+        font-family: "Orbitron";
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .hero-container-right .hero-description {
+        width: 100%;
+        padding: unset;
+        margin: unset;
+        font-size: 12px;
+    }
+
+    .button-grp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container-right .button-email {
+        width: 50%;
+        margin-left: 15px;
+    }
+    .hero-container-right .button-join {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+}  
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar-container {
+        display: flex;
+        max-width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    
+    .navbar-container img {
+        width: 100px;
+    }
+
+    .navbar-container .list {
+        display: none;
+    }
+
+     .button-group {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .button-group .nav-button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+    .hero-container .image img {
+        height: 70%;
+        width: 40%;
+    }
+
+    .hero-container .square img {
+        width: 40%;
+        height: 55%;
+        position: absolute;
+        margin-top: 25vh;
+        margin-left: 60px;
+    }
+
+    .star {
+         display: none; 
+    }
+
+    .globe {
+        display: none;
+    }
+
+    .hero-container-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 50%;
+    }
+
+    .hero-container-right .hero-heading {
+        width: 100%;
+        font-size: 24px;
+        font-family: "Orbitron";
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .hero-container-right .hero-description {
+        width: 100%;
+        padding: unset;
+        margin: unset;
+        font-size: 12px;
+    }
+
+    .button-grp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container-right .button-email {
+        width: 50%;
+        margin-left: 15px;
+    }
+    .hero-container-right .button-join {
+        width: 50%;
+        margin-top: 20px;
+    }
 }
